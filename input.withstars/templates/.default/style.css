@@ -1,0 +1,45 @@
+.rating{
+    width:60%;
+    min-width:200px;
+    margin-left:30px;
+    margin-top:7px;
+    margin-bottom:5px;
+}
+
+.rating label{
+    margin-bottom:5px!important;
+    text-align:left!important;
+}
+
+.rating input[type='text']{
+    position:fixed;
+    top:-10000%;
+    left:-10000%;
+}
+
+.rating__stars{
+    display:flex;
+    justify-content: space-between;
+}
+.rating__stars span{
+    display:inline-block;
+    width:36px;
+    height:34px;
+    background-image:url('/local/templates/geely-kuntsevo/images/raiting/non_active_star.png');
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    cursor:pointer;
+    transition:all 250ms;
+}
+
+.rating__stars span.active{
+    background-image:url('/local/templates/geely-kuntsevo/images/raiting/active_star.png');
+}
+
+.stars-label{
+    padding-left:3px;
+}
+
+@media(max-width:767px){
+    .raiting{margin-left:0;}
+}

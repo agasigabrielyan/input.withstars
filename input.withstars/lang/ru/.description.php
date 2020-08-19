@@ -1,0 +1,4 @@
+<?php
+$MESS['INPUT_WITH_RAITING_WITH_STARS_COMPONENT_NAME'] = 'Input со звездами';
+$MESS['INPUT_WITH_RAITING_WITH_STARS_COMPONENT_DESCRIPTION'] = 'Выводит Input со звездами от 1 до 5';
+$MESS['COMPANY_FOUR_PX'] = 'Компания 4PX';
